@@ -251,7 +251,7 @@
         "affectsGlobalScope": true
       },
       "./src/index.ts": {
-        "version": "96acd7bb05eae1243f86800177b5b4f2406161d2f3dd50bd460e4ed0d776ca7b",
+        "version": "e7feb9a8a217c5bf5ac269fa58ad5c04fc617971a94c79013dc9b98da5e40e9c",
         "signature": "98c6c532a43588fe06aaaca28a6fb17ff795144d4b400e9d17c1f5caaeeb15fc",
         "affectsGlobalScope": false
       },
@@ -952,6 +952,12 @@
       "./node_modules/vfile/types/index.d.ts",
       "./src/icons.ts",
       "./src/index.ts"
+    ],
+    "affectedFilesPendingEmit": [
+      [
+        "./src/index.ts",
+        1
+      ]
     ]
   },
   "version": "4.2.3"
