@@ -1,6 +1,6 @@
 {
-  "name": "bytemd-plugin-upload-file",
-  "version": "0.1.1",
+  "name": "bytemd-plugin-code-copy",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
