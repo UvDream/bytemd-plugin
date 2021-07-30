@@ -2,7 +2,7 @@
  * @Author: wangzhongjie
  * @Date: 2021-07-30 14:00:54
  * @LastEditors: wangzhongjie
- * @LastEditTime: 2021-07-30 16:51:52
+ * @LastEditTime: 2021-07-30 17:55:23
  * @Description:bytemd拷贝代码插件
  * @Email: UvDream@163.com
  */
@@ -26,6 +26,7 @@ export default function CopyCode(options?: CopyCodeOptions) {
     function copyCode(node: HTMLElement) {
         node.onclick = () => {
             let str: string = '';
+            // @ts-ignore
             node.parentNode.parentNode.children[0].childNodes.forEach(element => {
                 str = str + element.textContent
             })
@@ -47,12 +48,14 @@ export default function CopyCode(options?: CopyCodeOptions) {
         }
     }
     return {
+        // @ts-ignore
         viewerEffect({ markdownBody }) {
             (async (markdownBody: HTMLElement) => {
                 const els = markdownBody.querySelectorAll<HTMLElement>('pre')
                 els.forEach(el => {
                     const operateBtn = createElement('div', '', 'operate-btn')
                     // lang
+                    // @ts-ignore
                     const lang = el.childNodes[0]['className'].split("-")[1]
                     if (lang) {
                         const langBtn = createElement('span', lang, 'lang-btn')
@@ -71,7 +74,9 @@ export default function CopyCode(options?: CopyCodeOptions) {
                     if (options?.copyText) {
                         copyText = createElement('span', options.copyText, 'copy-btn')
                     }
+                    // @ts-ignore
                     operateBtn.appendChild(copyText)
+                    // @ts-ignore
                     copyCode(copyText)
 
                 });

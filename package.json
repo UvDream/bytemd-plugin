@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "clean": "rm -rf packages/*/{lib,dist,tsconfig.tsbuildinfo}",
     "dev": "tsc --build --watch"
   },
   "devDependencies": {

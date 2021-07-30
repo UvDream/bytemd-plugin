@@ -182,7 +182,7 @@
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "722c63d79989eda816d055cadac2576d744ee107fc5010d4b80b09b075eeb8fa",
+        "version": "4fad1e8837a6ec0d76d550b5d16b882d5cc34aac4cb4ebeec974319cc55b3b89",
         "signature": "d2ceda5676689013b3ecb90ea7c0bbb5f4bdc101f2bf6bbd0eb5326ba248b821",
         "affectsGlobalScope": false
       },
@@ -805,76 +805,7 @@
       "./node_modules/@types/tern/lib/tern/index.d.ts",
       "./node_modules/@types/unist/index.d.ts",
       "./src/icon.ts",
-      [
-        "./src/index.ts",
-        [
-          {
-            "file": "./src/index.ts",
-            "start": 916,
-            "length": 15,
-            "messageText": "Object is possibly 'null'.",
-            "category": 1,
-            "code": 2531
-          },
-          {
-            "file": "./src/index.ts",
-            "start": 916,
-            "length": 26,
-            "messageText": "Object is possibly 'null'.",
-            "category": 1,
-            "code": 2531
-          },
-          {
-            "file": "./src/index.ts",
-            "start": 1700,
-            "length": 12,
-            "messageText": "Binding element 'markdownBody' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7031
-          },
-          {
-            "file": "./src/index.ts",
-            "start": 2030,
-            "length": 29,
-            "code": 7053,
-            "category": 1,
-            "messageText": {
-              "messageText": "Element implicitly has an 'any' type because expression of type '\"className\"' can't be used to index type 'ChildNode'.",
-              "category": 1,
-              "code": 7053,
-              "next": [
-                {
-                  "messageText": "Property 'className' does not exist on type 'ChildNode'.",
-                  "category": 1,
-                  "code": 2339
-                }
-              ]
-            }
-          },
-          {
-            "file": "./src/index.ts",
-            "start": 2930,
-            "length": 8,
-            "messageText": "Variable 'copyText' is used before being assigned.",
-            "category": 1,
-            "code": 2454
-          },
-          {
-            "file": "./src/index.ts",
-            "start": 2970,
-            "length": 8,
-            "messageText": "Variable 'copyText' is used before being assigned.",
-            "category": 1,
-            "code": 2454
-          }
-        ]
-      ]
-    ],
-    "affectedFilesPendingEmit": [
-      [
-        "./src/index.ts",
-        1
-      ]
+      "./src/index.ts"
     ]
   },
   "version": "4.2.3"

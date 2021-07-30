@@ -2,12 +2,13 @@
  * @Author: wangzhongjie
  * @Date: 2021-07-26 10:22:44
  * @LastEditors: wangzhongjie
- * @LastEditTime: 2021-07-26 15:26:16
+ * @LastEditTime: 2021-07-30 17:55:29
  * @Description:上传文件
  * @Email: UvDream@163.com
  */
 import type { BytemdPlugin } from 'bytemd'
 import { icons } from './icons'
+// @ts-ignore
 import ZH from '../locales/zh_Hans.json'
 import selectFiles from 'select-files'
 import type { EditorProps } from "bytemd/lib/types"
@@ -52,6 +53,7 @@ export default function UploadFile({
                         })
                         console.log(fileList);
                         if (fileList?.length) {
+                            // @ts-ignore
                             const files = await uploadFile(Array.from(fileList))
                             const pos = ctx.appendBlock(
                                 files
@@ -63,7 +65,6 @@ export default function UploadFile({
                             )
                             ctx.editor.setSelection(pos, ctx.codemirror.Pos(pos.line + files.length * 2 - 2))
                             ctx.editor.focus()
-
                         }
                     }
                 }
