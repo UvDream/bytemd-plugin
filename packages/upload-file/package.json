@@ -1,0 +1,19 @@
+{
+  "name": "bytemd-plugin-uploadfile",
+  "version": "0.1.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w --incremental --p src"
+  },
+  "devDependencies": {
+    "bytemd": "^1.10.13",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "bytemd": "^1.5.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.8"
+  }
+}
