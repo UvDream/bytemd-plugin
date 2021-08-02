@@ -1,6 +1,6 @@
 {
   "name": "bytemd-plugin-upload-file",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -13,5 +13,7 @@
   "peerDependencies": {
     "bytemd": "^1.5.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@babel/runtime": "^7.14.8"
+  }
 }
