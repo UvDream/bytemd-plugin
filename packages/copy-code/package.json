@@ -1,8 +1,10 @@
 {
-  "name": "bytemd-plugin-code-copy",
-  "version": "0.0.1",
+  "name": "@uvdream/bytemd-plugin-code-copy",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
+  "repository": "https://github.com/UvDream/bytemd-plugin/tree/main/packages/copy-code",
+  "homepage": "https://github.com/UvDream/bytemd-plugin/tree/main/packages/copy-code/README.md",
   "scripts": {
     "dev": "tsc -w --incremental --p src"
   },

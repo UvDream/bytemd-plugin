@@ -1,8 +1,10 @@
 {
-  "name": "bytemd-plugin-upload-file",
-  "version": "0.0.1",
+  "name": "@uvdream/bytemd-plugin-upload-file",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
+  "repository": "https://github.com/UvDream/bytemd-plugin/tree/main/packages/upload-file",
+  "homepage": "https://github.com/UvDream/bytemd-plugin/blob/main/packages/upload-file/README.md",
   "scripts": {
     "dev": "tsc -w --incremental --p src"
   },
