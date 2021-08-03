@@ -1,5 +1,5 @@
 {
-  "name": "@bytemd/plugin-upload-file",
+  "name": "@uvdream/bytemd-plugin-upload-file",
   "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
