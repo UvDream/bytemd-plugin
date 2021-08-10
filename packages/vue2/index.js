@@ -2,7 +2,7 @@
  * @Author: wangzhongjie
  * @Date: 2021-08-09 15:50:35
  * @LastEditors: wangzhongjie
- * @LastEditTime: 2021-08-10 15:41:56
+ * @LastEditTime: 2021-08-10 15:54:43
  * @Description:
  * @Email: UvDream@163.com
  */
@@ -18,9 +18,5 @@ const bytemdVu2 = {
 if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue);
 }
-export default {
-    bytemdVu2,
-    Editor,
-    Viewer
-};
+export default bytemdVu2
 export { Editor, Viewer }
