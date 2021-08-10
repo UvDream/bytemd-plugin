@@ -1,7 +1,7 @@
 {
   "name": "@uvdream/bytemd-plugin-vu2",
   "version": "1.0.0",
-  "main": "dist/index.min.js",
+  "main": "index.js",
   "license": "MIT",
   "author": "UvDream",
   "scripts": {

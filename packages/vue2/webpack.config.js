@@ -2,7 +2,7 @@
  * @Author: wangzhongjie
  * @Date: 2021-08-09 16:06:56
  * @LastEditors: wangzhongjie
- * @LastEditTime: 2021-08-10 14:34:44
+ * @LastEditTime: 2021-08-10 15:43:33
  * @Description:
  * @Email: UvDream@163.com
  */
@@ -28,6 +28,7 @@ module.exports = {
         filename: "index.min.js",
         library: '@uvdream/bytemd-plugin-vu2',
         libraryTarget: 'umd',
+        libraryExport: 'default',
         umdNamedDefine: true,
     },
     module: {
