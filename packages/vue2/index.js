@@ -2,7 +2,7 @@
  * @Author: wangzhongjie
  * @Date: 2021-08-09 15:50:35
  * @LastEditors: wangzhongjie
- * @LastEditTime: 2021-08-10 15:54:43
+ * @LastEditTime: 2021-08-10 15:56:17
  * @Description:
  * @Email: UvDream@163.com
  */
@@ -12,11 +12,11 @@ function install(Vue) {
     Vue.component(Editor.name, Editor)
     Vue.component(Viewer.name, Viewer)
 }
-const bytemdVu2 = {
+const BytemdVue = {
     install
 }
 if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue);
 }
-export default bytemdVu2
+export default BytemdVue
 export { Editor, Viewer }
